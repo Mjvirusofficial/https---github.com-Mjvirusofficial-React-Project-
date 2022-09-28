@@ -1,10 +1,13 @@
 import React from 'react'
 import Card from './Card'
 import MovieData from './MovieData'
+import Navbar from './Navbar';
 
 function SouthMovie() {
+
     return (
         <>
+        <Navbar/>
           <div className='hdiv'>
             <div className="container">
                 <h1 className='sm-heading text-center'>Top 6 South Love Story Movies❤️</h1>
